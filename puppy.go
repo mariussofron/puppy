@@ -12,10 +12,10 @@ func Barks() string {
 	return "Woof! Woof! Woof! Woof!"
 }
 
-func BigBark(s string) string {
+func BigBark() string {
 	return bigdog.BigBarks(Bark())
 }
 
-func BigBarks(s string) string {
+func BigBarks() string {
 	return bigdog.BigBarks(Barks())
 }
